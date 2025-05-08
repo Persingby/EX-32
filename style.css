@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(119, 2, 2);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.caixinha{
+    background-color: rgb(144, 26, 26);
+    padding: 5px 75px;
+    border-radius: 40px;
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    width: 300px;
+}
+
+input{
+    background-color: hsla(0, 0%, 100%, 0.695);
+    padding: 10px;
+    width: 55%;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+button{
+    background-color: hsla(0, 0%, 100%, 0.695);
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
